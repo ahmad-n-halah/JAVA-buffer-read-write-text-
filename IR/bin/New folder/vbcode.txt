@@ -1,0 +1,8 @@
+TextWriter tw = new StreamWriter(@textBox1.Text + textBox3.Text + "vb.txt");
+            for (int i = 0; i < listBox2.Items.Count; i++)
+            {
+                tw.Write(Convert.ToString(Convert.ToInt32(listBox2.Items[i]), 2));
+            }
+            tw.Close();
+
+        }
