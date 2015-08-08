@@ -1,8 +1,0 @@
- DialogResult result = openFileDialog1.ShowDialog();
-            if (result == DialogResult.OK) 
-            {
-                textBox1.Text = openFileDialog1.FileName.ToString();
-            }
-
-
-        }
